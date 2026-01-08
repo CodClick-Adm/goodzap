@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { MessageCircle, Bot, Zap, Clock, Users, Shield } from "lucide-react";
+import { MessageCircle, Bot, Zap, Clock, Users, Shield, Info } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Header = () => (
@@ -153,7 +153,7 @@ const features = [
     description: "Excepcional para restaurantes delivery. Atende o cliente, tira pedidos, calcula frete, oferece produtos extras aumentando o ticket médio",
   },
   {
-    icon: MessageCircle,
+    icon: Info,
     title: "Customização",
     description: "Painel de controle com diversas configurações - Tempo antes do atendimento pelo agente, numeros especiais (que não devem ser atendidos pelo agente, área de entrega, valor do frete por Km ou por CEP, mensagem de saudação personalizada...etc",
   },
