@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { MessageCircle, Bot, Zap, Clock, Users, Shield, Info, Cog, Briefcase, Users, DollarSign } from "lucide-react";
+import { MessageCircle, Bot, Zap, Calendar, UserCheck, ShieldCheck, Info, Settings, TrendingUp, Users, DollarSign } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Header = () => (
@@ -115,32 +115,32 @@ const features = [
   {
     icon: Bot,
     title: "IA Conversacional",
-    description: "Respostas inteligentes que entendem contexto e intenção do cliente, proporcionando atendimento humanizado.",
+    description: "Atendimento humanizado com inteligência que entende o contexto e a intenção real do seu cliente.",
   },
   {
     icon: Zap,
     title: "Respostas Instantâneas",
-    description: "Responda seus clientes em segundos, 24 horas por dia, 7 dias por semana, sem perder nenhuma oportunidade.",
+    description: "Agilidade total: responda em segundos, 24h por dia, e nunca mais perca uma venda por demora no retorno.",
   },
   {
-    icon: Users,
+    icon: UserCheck,
     title: "Qualificação de Leads",
-    description: "Identifique e qualifique automaticamente os melhores leads para sua equipe de vendas.",
+    description: "Filtre automaticamente os leads com maior potencial de compra e direcione-os prontos para o seu time comercial.",
   },
   {
-    icon: Clock,
-    title: "Agendamentos Automáticos",
+    icon: Calendar,
+    title: "Agendamento Autônomo",
     description: "Integre com sua agenda e deixe a IA agendar reuniões e compromissos automaticamente.",
   },
   {
-    icon: Shield,
-    title: "100% Seguro",
-    description: "Seus dados e conversas protegidos com criptografia de ponta a ponta e conformidade LGPD.",
+    icon: ShieldCheck,
+    title: "Segurança e LGPD",
+    description: "Proteção máxima com criptografia de ponta a ponta e conformidade total com as normas de privacidade.",
   },
   {
-    icon: Users,
-    title: "Recuperação de clientes",
-    description: "Envia mensagens para recuperação de clientes (baseadas na data da última compra)",
+    icon: RotateCcw,
+    title: "Recuperação Ativa",
+    description: "Reative clientes ausentes de forma automática com base no histórico e data da última compra.",
   },
   {
     icon: Info,
@@ -148,14 +148,14 @@ const features = [
     description: "Fornece todas as informações necessárias ao cliente, como cardápio, preços, horário de atendimento, promoções, endereço e muito mais",
   },
   {
-    icon: DollarSign,
-    title: "Profissional de Vendas",
-    description: "Excepcional para restaurantes delivery. Atende o cliente, tira pedidos, calcula frete, oferece produtos extras aumentando o ticket médio",
+    icon: TrendingUp,
+    title: "Vendedor Especialista",
+    description: "Ideal para delivery: tira pedidos, calcula frete e sugere acompanhamentos para aumentar seu ticket médio.",
   },
   {
-    icon: Cog,
-    title: "Customização",
-    description: "Painel de controle com diversas configurações - Tempo antes do atendimento pelo agente, numeros especiais (que não devem ser atendidos pelo agente, área de entrega, valor do frete por Km ou por CEP, mensagem de saudação personalizada...etc",
+    icon: Settings,
+    title: "Controle Total",
+    description: "Painel intuitivo para configurar tempos de resposta, regras de frete por KM/CEP e exceções de atendimento.",
   },
 ];
 
