@@ -187,7 +187,7 @@ const FeaturesSection = () => (
 
 const benefits = [
   "Redução de até 80% no tempo de resposta",
-  "Aumento de 300% nas conversões de vendas",
+  "Aumento de 45% a 300% nas conversões de vendas",
   "Atendimento personalizado para cada cliente",
   "Integração com CRMs e ferramentas de marketing",
   "Relatórios detalhados de performance",
