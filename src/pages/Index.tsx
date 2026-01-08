@@ -140,7 +140,12 @@ const features = [
   {
     icon: MessageCircle,
     title: "Recuperação de clientes",
-    description: "Envia mensagens para recuperação de cliente (baseado na data da última compra)",
+    description: "Envia mensagens para recuperação de clientes (baseadas na data da última compra)",
+  },
+  {
+    icon: MessageCircle,
+    title: "Informações Personalizadas",
+    description: "Fornece todas as informações necessárias ao cliente, como cardápio, preços, horário de atendimento, promoções, endereço e muito mais",
   },
 ];
 
