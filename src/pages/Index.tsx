@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { MessageCircle, Bot, Zap, Calendar, UserCheck, ShieldCheck, Info, Settings, TrendingUp, Users, DollarSign } from "lucide-react";
+import { MessageCircle, Bot, Zap, Calendar, UserCheck, ShieldCheck, Info, Settings, TrendingUp, Users, DollarSign, RotateCcw } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Header = () => (
