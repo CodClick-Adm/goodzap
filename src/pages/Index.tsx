@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { MessageCircle, Bot, Zap, Clock, Users, Shield, Info, Cog, Briefcase } from "lucide-react";
+import { MessageCircle, Bot, Zap, Clock, Users, Shield, Info, Cog, Briefcase, Users, DollarSign } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Header = () => (
@@ -138,7 +138,7 @@ const features = [
     description: "Seus dados e conversas protegidos com criptografia de ponta a ponta e conformidade LGPD.",
   },
   {
-    icon: MessageCircle,
+    icon: Users,
     title: "Recuperação de clientes",
     description: "Envia mensagens para recuperação de clientes (baseadas na data da última compra)",
   },
@@ -148,7 +148,7 @@ const features = [
     description: "Fornece todas as informações necessárias ao cliente, como cardápio, preços, horário de atendimento, promoções, endereço e muito mais",
   },
   {
-    icon: Briefcase,
+    icon: DollarSign,
     title: "Profissional de Vendas",
     description: "Excepcional para restaurantes delivery. Atende o cliente, tira pedidos, calcula frete, oferece produtos extras aumentando o ticket médio",
   },
