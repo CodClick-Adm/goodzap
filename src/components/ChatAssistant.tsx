@@ -59,8 +59,20 @@ export function ChatAssistant() {
         }),
       });
 
-      const data = await response.json();
-      const assistantMessage = data[0]?.output || data.output || "Desculpe, não consegui processar sua mensagem.";
+      const responseText = await response.text();
+      let assistantMessage: string;
+      
+      try {
+        const data = JSON.parse(responseText);
+        assistantMessage = Array.isArray(data) ? data[0]?.output : data.output;
+      } catch {
+        // Se não for JSON válido, usa o texto diretamente
+        assistantMessage = responseText;
+      }
+      
+      if (!assistantMessage) {
+        assistantMessage = "Desculpe, não consegui processar sua mensagem.";
+      }
       
       setMessages((prev) => [...prev, { role: "assistant", content: assistantMessage }]);
     } catch (error) {
