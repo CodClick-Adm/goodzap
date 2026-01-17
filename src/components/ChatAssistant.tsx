@@ -22,7 +22,7 @@ export function ChatAssistant() {
   const [open, setOpen] = useState(false);
   const [showBubble, setShowBubble] = useState(true);
   const [messages, setMessages] = useState<Message[]>([
-    { role: "assistant", content: "Olá ! Bem vindo à CodClick Automação! Me pergunte o que quiser 🙂! " },
+    { role: "assistant", content: "Olá ! Bem vindo à CodClick Automação!\nMe pergunte o que quiser 🙂! " },
   ]);
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
@@ -143,7 +143,7 @@ export function ChatAssistant() {
                   className={`flex ${msg.role === "user" ? "justify-end" : "justify-start"}`}
                 >
                   <div
-                    className={`max-w-[80%] rounded-lg px-3 py-2 text-sm ${
+                    className={`max-w-[80%] rounded-lg px-3 py-2 text-sm whitespace-pre-line ${
                       msg.role === "user"
                         ? "bg-orange-500 text-white"
                         : "bg-muted text-foreground"
