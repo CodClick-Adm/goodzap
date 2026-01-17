@@ -21,7 +21,7 @@ const WEBHOOK_URL = "https://n8n-n8n-start.yh11mi.easypanel.host/webhook/chatass
 export function ChatAssistant() {
   const [open, setOpen] = useState(false);
   const [messages, setMessages] = useState<Message[]>([
-    { role: "assistant", content: "Me pergunte o que quiser" },
+    { role: "assistant", content: "Olá ! Bem vindo à CodClick Automação 🙂! Me pergunte o que quiser" },
   ]);
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
